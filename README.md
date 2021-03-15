@@ -3,7 +3,7 @@ A pretty simplified Docker Compose workflow that sets up a LEMP network of conta
 
 
 ## startup
-```
+```code
 docker-compose up
 ```
 

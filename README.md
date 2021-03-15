@@ -8,6 +8,13 @@ docker-compose up
 ```
 
 
+## migration
+```code
+docker-compose exec php sh
+php artisan migrate
+exit
+```
+
 ## Usage
 
 To get started, make sure you have [Docker installed](https://docs.docker.com/docker-for-mac/install/) on your system, and then clone this repository.

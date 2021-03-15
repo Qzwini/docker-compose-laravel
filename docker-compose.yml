@@ -43,6 +43,7 @@ services:
       context: .
       dockerfile: php.dockerfile
     container_name: php
+    tty: true
     volumes:
       - ./src:/var/www/html:delegated
     networks:
